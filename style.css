@@ -11,6 +11,24 @@ body
     background-color: white;
     height: 100%;
 }
+#problem-description-div
+{
+    position: relative;
+    left: 0%;
+    width: 50%;
+    float: left;
+    border-right: 1px solid black;
+}
+#problem-submission-div
+{
+    position: relative;
+//    left: 50%;
+//    width: 50%;
+    left: 0%;
+    width: 50%;
+    margin-left: 50%;
+    border-left: 1px solid black;
+}
 h1
 {
     margin-top: 0px;
@@ -18,11 +36,14 @@ h1
 }
 #submit-div
 {
-    margin-top: 10px;
-    display: block;
-    position: absolute;
-    top: 0%;
-    left: 89%;
+//    margin-top: 10px;
+//    display: block;
+//    position: absolute;
+//    top: 0%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     padding: 7px;
     background-color: rgb(180, 180, 180);
     border: 1px solid black;
@@ -48,4 +69,17 @@ ul
 span
 {
     padding-left: 5px;
+}
+
+#problem-submission-inner-div
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#code-textarea
+{
+    width: 100%;
+    height: 10em;
+    border: 2px solid black;
+    border-radius: 5px;
 }
