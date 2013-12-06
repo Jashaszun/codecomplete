@@ -5,8 +5,13 @@ body
 }
 #header-div
 {
-    background-color: rgb(192, 64, 0);
+    background-color: rgb(220, 70, 0);
     width: 100%;
+}
+#header-title-div
+{
+    background-color: white;
+    font-size: 3em;
 }
 .header-button
 {
@@ -15,6 +20,11 @@ body
     padding-left: 10px;
     padding-right: 10px;
     display: inline;
+}
+.header-button > a
+{
+    color: black;
+    text-decoration: none;
 }
 .header-button:hover
 {
@@ -64,7 +74,8 @@ h1
 }
 #submit-div:hover
 {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(140, 140, 140);
+    text-decoration: underline;
 }
 h3
 {
